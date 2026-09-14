@@ -4,8 +4,6 @@ from blockchain import Blockchain
 Blockchain = Blockchain()
 
 
-# Transaksi 1:
-# Customer berbelanja pada Merchant dan memperoleh token poin.
 Blockchain.add_block({
     "transaction_id": "TRX-001",
     "transaction_type": "REWARD_EARNED",
@@ -19,8 +17,6 @@ Blockchain.add_block({
 })
 
 
-# Transaksi 2:
-# Customer memakai poin pada merchant lain.
 Blockchain.add_block({
     "transaction_id": "TRX-002",
     "transaction_type": "REWARD_REDEEMED",
@@ -34,8 +30,6 @@ Blockchain.add_block({
 })
 
 
-# Transaksi 3:
-# Loyalty Platform menerbitkan token ERC-20 untuk program reward.
 Blockchain.add_block({
     "transaction_id": "TRX-003",
     "transaction_type": "TOKEN_ISSUED",
